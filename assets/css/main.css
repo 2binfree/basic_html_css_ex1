@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  margin-top: 15px;
+  margin-top: 1em;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -31,16 +31,25 @@ body {
 
 .main {
   text-align: center;
-  padding-top: 4em;
-  padding-bottom: 20px;
+  padding-top: 7em;
+}
+
+.infoBlock {
+  display: inline-block;
+  width: 25%;
+  padding: 1em;
+  height: 10em;
+  border: 1px solid white;
 }
 
 .main > .mainTop > div:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 2em;
 }
 
 .main > .mainMiddle {
   margin: 4em;
+  padding-top: 2em;
+  height: 35em;
 }
 
 .main > .mainMiddle > cite {
@@ -48,20 +57,49 @@ body {
   font-size: 2em;
 }
 
-.main > .mainBottom {
-  
+.topTextBlock {
+  padding-top: 4em;
 }
 
-.infoBlock {
+.textBlock {
+  color: white;
+  font-size: 1.1em;
+  width: 33%;
+  padding: 2em;
+  margin: 2em;
+  height: 20em;
   display: inline-block;
-  width: 25%;
-  padding: 10px;
-  height: 10em;
-  border: 1px solid white;
+  text-align: justify;
+  vertical-align: middle;
+  line-height: 1.4em;
+  -moz-box-shadow: 15px 15px 15px 0px #202020;
+  -webkit-box-shadow: 15px 15px 15px 0px #202020;
+  -o-box-shadow: 15px 15px 15px 0px #202020;
+  box-shadow: 15px 15px 15px 0px #202020;
+}
+
+.textBlock > h3 {
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom: solid 1px grey;
+}
+
+.mainMiddle > div > div:not(:last-child) {
+  margin-right: 30px;
+}
+
+.mainBottom > i {
+  font-size: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em; 
+}
+
+.mainBottom > i:not(:last-child) {
+  margin-right: 3em;
 }
 
 .footer {
-  background-color: #101010;
+  background-color: #202020;
   color: white;
-  height: 10em;
+  height: 15em;
 }
