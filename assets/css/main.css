@@ -38,8 +38,10 @@ body {
   display: inline-block;
   width: 25%;
   padding: 1em;
-  height: 10em;
-  border: 1px solid white;
+}
+
+.infoBlock > img {
+  width: 380px;
 }
 
 .main > .mainTop > div:not(:last-child) {
@@ -105,7 +107,21 @@ body {
 }
 
 table {
-  border: solid 1px white;
+  border-collapse: collapse;
+}
+
+th {
+  padding-bottom: 1em;
+  font-size: 1.3em;
+  color: white;
+}
+th,
+td {
+  border-bottom: 1px solid #404040;
+}
+
+tr:nth-child(even) {
+  background-color: #404040;
 }
 
 tr {
@@ -113,7 +129,7 @@ tr {
 }
 
 td {
-  border-left: solid 1px white;
+  padding: 1em;
 }
 
 .footer {
