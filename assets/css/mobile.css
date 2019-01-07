@@ -1,0 +1,5 @@
+@media screen and (max-width: 1284px) {
+	.main > .mainTop > div:not(:last-child) {
+		margin-right: 0px;
+	}
+}
